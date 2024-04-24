@@ -32,7 +32,7 @@ Route::group([
 
 });
 
-Route::group(['prefix' => 'v1', 'namespace' => 'App\Http\Controllers\API\V1'], function () {
-    Route::apiResource('posts', PostController::class);
-    Route::apiResource('comments', CommentController::class);
-});
+// Route::group(['prefix' => 'v1', 'namespace' => 'App\Http\Controllers\API\V1'], function () {
+//     Route::apiResource('posts', PostController::class);
+//     Route::apiResource('comments', CommentController::class);
+// });
